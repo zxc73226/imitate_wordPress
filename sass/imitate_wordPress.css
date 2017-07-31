@@ -1,0 +1,247 @@
+@import url("http://fonts.googleapis.com/earlyaccess/notosanstc.css");
+* {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  box-sizing: border-box;
+  text-align: center; }
+
+body,
+html {
+  font-family: 'Noto Sans TC', sans-serif; }
+
+.topbox {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://s2.wp.com/wp-content/themes/h4/landing/marketing/img/background-photog.jpg");
+  background-size: cover; }
+  .topbox h1 {
+    top: 38vh;
+    font-size: 2.3rem;
+    color: white; }
+  .topbox h2 {
+    top: 38vh;
+    font-size: 1.35rem;
+    color: white; }
+
+.header {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  flex-direction: row; }
+
+#logo {
+  background-image: url("https://s1.wp.com/wp-content/themes/h4/landing/marketing/img/wordpresscom-logo-blue.svg");
+  background-size: cover; }
+
+.top-left-grid {
+  width: 70%;
+  height: 48px;
+  display: flex;
+  flex-direction: row; }
+
+.top-right-grid {
+  width: 30%;
+  height: 48px;
+  display: flex;
+  flex-direction: row; }
+
+.bottombox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row; }
+
+.bottom-left-grid {
+  width: 50%;
+  height: 590px;
+  background-color: rgba(20, 20, 20, 0.1);
+  padding: 30px 0 50px 0; }
+  .bottom-left-grid h3 {
+    width: 615px;
+    margin: 50px auto;
+    font-size: .9rem;
+    color: rgba(0, 0, 0, 0.9); }
+  .bottom-left-grid .logoimg1 {
+    width: 180px;
+    height: 30px;
+    margin: 5px auto;
+    background-image: url("https://s1.wp.com/wp-content/themes/h4/landing/marketing/img/wordpresscom-logo-blue.svg");
+    background-size: cover; }
+
+.grid {
+  background-color: white;
+  border: 1px solid teal;
+  margin: 0px auto;
+  width: 590px;
+  height: 250px;
+  padding: 16px; }
+  .grid h4 {
+    font-size: .7rem;
+    margin: 10px 0px; }
+  .grid p {
+    font-size: .6rem;
+    margin: 20px 0px; }
+
+button {
+  font-size: .6rem;
+  width: 200px;
+  height: 40px;
+  color: white;
+  background-color: rgba(0, 200, 255, 0.8);
+  border: 1px solid rgba(0, 200, 255, 0.6);
+  border-radius: 5px; }
+  button:hover {
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.7);
+    transition: 0.3s; }
+
+.bottom-right-grid {
+  width: 50%;
+  height: 590px;
+  background-color: rgba(20, 20, 20, 0.15);
+  padding: 50px 0; }
+  .bottom-right-grid h3 {
+    width: 615px;
+    margin: 30px auto 50px auto;
+    font-size: .95rem;
+    color: rgba(0, 0, 0, 0.9); }
+  .bottom-right-grid .logoimg2 {
+    width: 120px;
+    height: 20px;
+    margin: 5px auto;
+    background-image: url("https://s1.wp.com/wp-content/themes/h4/landing/marketing/img/bluehost-logo.svg");
+    background-size: cover; }
+  .bottom-right-grid h6 {
+    height: 30px;
+    font-size: .3rem;
+    font-weight: 300;
+    margin-top: 50px; }
+
+.textbox {
+  width: 100%;
+  height: 205px;
+  padding: 50px 0; }
+  .textbox h2 {
+    font-size: 1.3rem;
+    color: #00c8ff;
+    margin: 10px 0px; }
+  .textbox p {
+    font-size: .9rem;
+    color: rgba(0, 0, 0, 0.7); }
+
+.bbox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0px 70px 0px; }
+
+.bottom-box-left-grid {
+  width: 50%; }
+  .bottom-box-left-grid h3 {
+    font-size: 1.3rem;
+    color: #00c8ff;
+    margin: 10px 0px; }
+  .bottom-box-left-grid h4 {
+    font-size: .9rem;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500; }
+  .bottom-box-left-grid li {
+    list-style: none;
+    width: 100%;
+    height: 150px;
+    margin: 30px 0px 0px 0px;
+    font-size: .7rem; }
+    .bottom-box-left-grid li p {
+      width: 612px;
+      height: 75px;
+      margin: 0px auto;
+      color: rgba(0, 0, 0, 0.8);
+      top: 50%;
+      transform: translateY(-50%); }
+
+.img {
+  background-size: cover;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: -40px;
+  top: 22px;
+  transform: translateY(-50%); }
+
+.img1 {
+  background-image: url("https://s2.wp.com/wp-content/themes/h4/landing/marketing/img/wp-logomark.svg");
+  top: 0px; }
+
+.img2 {
+  background-image: url("https://s2.wp.com/wp-content/themes/h4/landing/marketing/img/i-setup-illo.svg");
+  top: 180px; }
+
+.img3 {
+  background-image: url("https://s2.wp.com/wp-content/themes/h4/landing/marketing/img/i-sites-illo.svg");
+  top: 380px; }
+
+.img4 {
+  background-image: url("https://s2.wp.com/wp-content/themes/h4/landing/marketing/img/i-social-illo.svg");
+  top: 550px; }
+
+.img5 {
+  background-image: url("https://s2.wp.com/wp-content/themes/h4/landing/marketing/img/i-support-illo.svg");
+  top: 740px; }
+
+.bottom-box-right-grid {
+  width: 50%; }
+  .bottom-box-right-grid h3 {
+    font-size: 1.3rem;
+    color: #00c8ff;
+    margin: 10px 0px; }
+  .bottom-box-right-grid h4 {
+    font-size: .9rem;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500; }
+  .bottom-box-right-grid li {
+    list-style: none;
+    width: 100%;
+    height: 150px;
+    margin: 30px 0px 0px 0px;
+    font-size: .7rem; }
+    .bottom-box-right-grid li p {
+      width: 612px;
+      height: 75px;
+      margin: 0px auto;
+      color: rgba(0, 0, 0, 0.8);
+      top: 50%;
+      transform: translateY(-50%); }
+
+.footer {
+  width: 100%;
+  height: 120px;
+  margin: 0px auto;
+  background-color: black; }
+
+nav {
+  width: 1140px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+  padding: 35px 0; }
+
+.footer-left {
+  width: 60%;
+  height: 100%;
+  color: white; }
+  .footer-left li {
+    display: inline;
+    width: 50px;
+    font-size: .6rem;
+    margin: 0px 5px; }
+
+.footer-right {
+  width: 40%;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: .6rem;
+  top: 10px; }
+
+/*# sourceMappingURL=imitate_wordPress.css.map */
